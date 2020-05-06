@@ -1,0 +1,69 @@
+{
+	"workbench.startupEditor": "none",
+	"editor.fontFamily": "'Fira Code Retina'",
+	"editor.cursorStyle": "underline",
+	"editor.cursorBlinking": "phase",
+	"editor.fontLigatures": true,
+	"window.titleBarStyle": "native",
+	"breadcrumbs.enabled": true,
+	"extensions.ignoreRecommendations": false,
+	"extensions.showRecommendationsOnlyOnDemand": true,
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.hideStatusBar": false,
+	"explorer.autoReveal": true,
+	"explorer.openEditors.visible": 0,
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.showSlider": "always",
+	"editor.minimap.maxColumn": 200,
+	"editor.renderWhitespace": "all",
+	"editor.smoothScrolling": true,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.lineNumbers": "on",
+	"editor.rulers": [
+		800
+	],
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"editor.detectIndentation": true,
+	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.fontFamily": "Fira Code Retina",
+	"workbench.colorTheme": "Dracula",
+	"workbench.iconTheme": "vs-seti",
+	"window.zoomLevel": 0.75,
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"editor.wordWrap": "on",
+}

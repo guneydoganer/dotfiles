@@ -1,0 +1,93 @@
+[icons]
+name = "awesome"
+[icons.overrides]
+cpu = ""
+update = ""
+
+[theme]
+name = "slick"
+[theme.overrides]
+#time
+idle_bg = "#282936"
+#music
+#idle_fg = "#ffffff"
+#music play
+info_bg = "#00f769"
+#music pause
+info_fg = "#282828"
+#music next
+#good_bg = "#a3be8c"
+#music previous
+good_fg = "#ffffff"
+#cogs
+warning_bg = "#ebff87"
+#memory_mem
+warning_fg = "#282936"
+#memory_swap
+#critical_bg = "#BA8BAF"
+#cpu
+critical_fg = "#282936"
+#separator = "<"
+#separator_bg = "#282936"
+#separator_fg = "#5c90a1"
+alternating_tint_bg = "#282936"
+alternating_tint_fg = "#ea51b2"
+
+[[block]]
+block = "focused_window"
+max_width = 210
+
+[[block]]
+block = "net"
+device = "eno1"
+ip = true
+interval = 5
+use_bits = false
+
+[[block]]
+block = "disk_space"
+path = "/home"
+alias = " "
+info_type = "available"
+unit = "GB"
+interval = 20
+warning = 20.0
+alert = 10.0
+
+[[block]]
+block = "memory"
+format_mem = "RAM: {Mup}%"
+format_swap = "{SUp}% swap"
+display_type = "memory"
+icons = true
+clickable = true
+interval = 5
+warning_mem = 80
+warning_swap = 80
+critical_mem = 95
+critical_swap = 95
+
+[[block]]
+block = "load"
+format = "{1m} {5m}"
+interval = 1
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "CPU: {utilization}% {frequency}GHz"
+
+[[block]]
+block = "music"
+on_collapsed_click = "spotify"
+player = "spotify"
+buttons = ["play", "next"]
+
+[[block]]
+block = "sound"
+step_width = 3
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d-%m | %R"
