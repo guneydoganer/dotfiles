@@ -5,4 +5,5 @@ Note for myself:
 chezmoi cd
 git add *
 git commit -m "commit message here"
-exit
+
+git push -u dotfiles master
